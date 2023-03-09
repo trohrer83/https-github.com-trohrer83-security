@@ -6,7 +6,7 @@ const executor_service_worker_path = '/common/dispatcher/executor-service-worker
 const coep_none =
     '|header(Cross-Origin-Embedder-Policy,none)';
 const coep_credentialless =
-    '|header(Cross-Origin-Embedder-Policy,credentialless)';
+    '|header(Cross-Origin-Embedder-Policy,cors-or-credentialless)';
 const coep_require_corp =
     '|header(Cross-Origin-Embedder-Policy,require-corp)';
 
